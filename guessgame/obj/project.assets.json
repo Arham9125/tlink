@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "NHunspell/1.2.5554.16953": {
+        "type": "package",
+        "compile": {
+          "lib/net/NHunspell.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net/NHunspell.dll": {
+            "related": ".pdb"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NHunspell/1.2.5554.16953": {
+      "sha512": "B2tr5kfwHu0jan5Gd3JEWdJkDVJxGAXmA230y0XeqJcL4zdZWk8Bmw9LVQ3p9/qKuun/7+FemxjspbjcTLGp6g==",
+      "type": "package",
+      "path": "nhunspell/1.2.5554.16953",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Tools/install.ps1",
+        "content/Hunspellx64.dll",
+        "content/Hunspellx86.dll",
+        "lib/net/NHunspell.dll",
+        "lib/net/NHunspell.pdb",
+        "nhunspell.1.2.5554.16953.nupkg.sha512",
+        "nhunspell.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "NHunspell >= 1.2.5554.16953"
+    ]
+  },
+  "packageFolders": {
+    "/Users/arhamkhanmac/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/arhamkhanmac/Desktop/spell checker/guessgame/guessgame.csproj",
+      "projectName": "guessgame",
+      "projectPath": "/Users/arhamkhanmac/Desktop/spell checker/guessgame/guessgame.csproj",
+      "packagesPath": "/Users/arhamkhanmac/.nuget/packages/",
+      "outputPath": "/Users/arhamkhanmac/Desktop/spell checker/guessgame/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/arhamkhanmac/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "NHunspell": {
+            "target": "Package",
+            "version": "[1.2.5554.16953, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NHunspell 1.2.5554.16953' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NHunspell",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "KCJA+T0ru4pC/KiaMuYBy0ruebTW74Plxnoy/O+F3vhjNT8+v57pV6GxKsh4ZFPEJ5mQKUu8nGQr6jbzNzQWFg==",
+  "success": true,
+  "projectFilePath": "/Users/arhamkhanmac/Desktop/spell checker/guessgame/guessgame.csproj",
+  "expectedPackageFiles": [
+    "/Users/arhamkhanmac/.nuget/packages/nhunspell/1.2.5554.16953/nhunspell.1.2.5554.16953.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NHunspell 1.2.5554.16953' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NHunspell",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
